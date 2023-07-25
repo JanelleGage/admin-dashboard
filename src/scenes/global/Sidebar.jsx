@@ -99,10 +99,6 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                     src={`../../assets/user.png`}
                     style={{ cursor: "pointer", borderRadius: "50%" }}
                   />
-              
-                </Box>
-                <Box display="flex" justifyContent="center">
-                <a href="https://www.freepik.com/free-vector/cute-cat-gaming-cartoon_13486463.htm#page=2&position=7&from_view=author">Image by catalyststuff </a>
                 </Box>
                 <Box textAlign="center">
                   <Typography
@@ -128,7 +124,6 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                 selected={selected}
                 setSelected={setSelected}
               />
-  
               <Typography
                 variant="h6"
                 color={colors.grey[300]}
