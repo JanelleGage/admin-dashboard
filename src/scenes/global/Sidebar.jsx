@@ -80,7 +80,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                   ml="15px"
                 >
                   <Typography variant="h3" color={colors.grey[100]}>
-                    ADMINIS
+                    ADMIN
                   </Typography>
                   <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                     <MenuOutlinedIcon />
@@ -99,6 +99,10 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                     src={`../../assets/user.png`}
                     style={{ cursor: "pointer", borderRadius: "50%" }}
                   />
+              
+                </Box>
+                <Box display="flex" justifyContent="center">
+                <a href="https://www.freepik.com/free-vector/cute-cat-gaming-cartoon_13486463.htm#page=2&position=7&from_view=author">Image by catalyststuff </a>
                 </Box>
                 <Box textAlign="center">
                   <Typography
@@ -110,7 +114,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                     Janelle Gage
                   </Typography>
                   <Typography variant="h5" color={colors.greenAccent[500]}>
-                    VP Fancy Admin
+                    VP Admin
                   </Typography>
                 </Box>
               </Box>
