@@ -3,7 +3,7 @@ import { mockLineData as data } from "../data/mockData";
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
 
-const LineChart = ( isDashboard = false) => {
+const LineChart = ({ isDashboard = false}) => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
      
